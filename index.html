@@ -54,7 +54,7 @@
         </div>
     </header>
 
-        <!-- habit section -->
+    <!-- habit section -->
 
     <section class="habit">
         <div class="habit-content">
@@ -74,39 +74,109 @@
             <div class="habit-card">
                 <img src="images/image 2.png" alt="" class="habit-image">
                 <h4 class="habit-title">Time</h4>
-                <p class="habit-description f14 color-dsc">Spending some time in personal growth and physical activity can
+                <p class="habit-description f14 color-dsc">Spending some time in personal growth and physical activity
+                    can
                     also be a reason for healthy and happy life.</p>
             </div>
             <div class="habit-card">
                 <img src="images/image 4.png" alt="" class="habit-image">
                 <h4 class="habit-title">Practice</h4>
-                <p class="habit-description f14 color-dsc">Keep doing the thing you don't like so that it becomes easier.
+                <p class="habit-description f14 color-dsc">Keep doing the thing you don't like so that it becomes
+                    easier.
                     You know "Practice makes men perfect."</p>
             </div>
             <div class="habit-card">
                 <img src="images/image 5.png" alt="" class="habit-image">
                 <h4 class="habit-title">Weight Loss</h4>
-                <p class="habit-description f14 color-dsc">After loosing some fat when biceps, triceps, and abs starts to
+                <p class="habit-description f14 color-dsc">After loosing some fat when biceps, triceps, and abs starts
+                    to
                     visible it will motive you in every time.</p>
             </div>
         </div>
     </section>
 
     <!-- Bhag milka bhag section -->
-    
+
     <section class="milka-singh-section df">
         <div class="ms-content">
-            <h3 class="ms-title">Run an Extra 
+            <h3 class="ms-title">Run an Extra
                 Mile Easily</h3>
-            <p class="ms-description">We will help lose fat and without losing muscle. Join our fitness course now and get an amazing discount. Our guide will be always with you.</p>
+            <p class="ms-description">We will help lose fat and without losing muscle. Join our fitness course now and
+                get an amazing discount. Our guide will be always with you.</p>
             <button class="btn-primary btnn">Join Now</button>
         </div>
         <div>
             <img class="ms-image" src="images/run.jpg" alt="Bhag milka bhag">
         </div>
     </section>
-    <footer>
 
+    <!-- BMI calculation -->
+
+
+    <div class="bmi-headings">
+        <h3 class="bmi-hading">BMI Calculator</h3>
+        <p class="bmi-description color-dsc f14">Knowing your BMI level is very important to maintain a healthy life.
+            Know your BMI level using our BMI-Calculator</p>
+    </div>
+
+    <!-- section tag is using a max width of max 1440px -->
+
+    <div class="mone-mone-section">
+        <section class="bmi-calc df">
+            <div class="bmi-chart">
+                <h3 class="bmi-chart-heading">BMI Calculator Chart</h3>
+
+                <table style="width: 310px;">
+                    <tr>
+                        <th class="tdata">BMI</th>
+                        <th class="tdata">Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td class="tdata">Below 18.5</td>
+                        <td class="tdata">Underweight</td>
+                    </tr>
+                    <tr>
+                        <td class="tdata">18.5 - 24.9</td>
+                        <td class="tdata">Healthy</td>
+                    </tr>
+                    <tr>
+                        <td class="tdata">25.0 - 29.9</td>
+                        <td class="tdata">Overweight</td>
+                    </tr>
+                    <tr>
+                        <td class="tdata">30.0 - and Above</td>
+                        <td class="tdata">Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="calculate-bmi">
+                <h3 class="calc-heading">Calculate your BMI</h3>
+                <p class="calc-dsc">Enter your Height, Weight, Age, Gender and an activity level to calculate your bmi
+                </p>
+                <div>
+                    <div class="dg">
+                        <input class="input" type="text" placeholder="Height/cm">
+                        <input class="input" type="text" placeholder="Weight/kg">
+                        <input class="input" type="text" placeholder="Age">
+                        <select class="input" name="gender" id="gender">
+                            <option value="" disabled selected>Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="hijra">Rather not say</option>
+                        </select>
+                        <select class="input" name="activity" id="activity">
+                            <option value="" disabled selected>Select an activity factor</option>
+                            <option value="bekar">Stay at home for most of the time</option>
+                            <option value="maje maje kam kore">Ekto adto kam kaj kori</option>
+                            <option value="Din mojur">Ami din mojur</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="calc-btn btn-primary">Calculate</button>
+            </div>
+        </section>
+    </div>
+    <footer>
     </footer>
 </body>
 

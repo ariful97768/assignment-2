@@ -265,3 +265,62 @@ li {
     margin: 2rem;
 }
 
+/* BMI calculator */
+.bmi-calc {
+    padding: 3.12rem;
+    gap: 13rem;
+}
+
+.bmi-headings {
+    text-align: center;
+}
+
+.bmi-hading {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.bmi-chart-heading {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 0 3.12rem 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tdata {
+    padding: 0.8rem 1.1rem;
+}
+
+.mone-mone-section {
+    background: rgb(34, 34, 34);
+}
+
+.dg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.input {
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+.calc-btn{
+    margin-top: 2rem;
+}
