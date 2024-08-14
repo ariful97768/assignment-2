@@ -230,3 +230,38 @@ li {
     margin-top: 1.8rem;
     margin-bottom: 6px;
 }
+
+/* 'Bhag milka bhag' section style */
+
+.milka-singh-section {
+    justify-content: space-between;
+    gap: 11rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.ms-content {
+    margin-left: 3.4rem;
+    max-width: 443px;
+    margin-top: 2.5rem;
+}
+
+.ms-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.ms-description {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ms-image {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    object-fit: cover;
+    margin: 2rem;
+}
+
