@@ -51,6 +51,10 @@ section {
 
 .color-dsc {
     color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 .f14 {
@@ -122,6 +126,8 @@ li {
 }
 
 .hero-description {
+    letter-spacing: 0.5px;
+    font-size: 16px;
     max-width: 500px;
     margin-top: 1.6rem;
     margin-bottom: 1.6rem;
@@ -308,19 +314,196 @@ td {
     background: rgb(34, 34, 34);
 }
 
-.dg {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+
+.input1 {
+    grid-area: aa;
 }
 
-.input {
+.input2 {
+    grid-area: bb;
+}
+
+.input3 {
+    grid-area: cc;
+}
+
+.input4 {
+    grid-area: dd;
+}
+
+.input5 {
+    grid-area: ee;
+}
+
+#option {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "aa bb"
+        "cc dd"
+        "ee ee"
+    ;
+}
+
+select,
+input {
     padding: 12px 40px 12px 20px;
     border-radius: 8px;
     border: none;
     background: rgba(255, 255, 255, 0.1);
-    
+    color: #ffffff;
 }
-.calc-btn{
+
+.calc-heading {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.calc-dsc {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.calc-btn {
     margin-top: 2rem;
+}
+
+#option input::placeholder,
+select {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+option {
+    color: rgba(255, 255, 255, 0.751);
+    background: rgba(0, 0, 0, 0.786);
+}
+
+/* meet our team style */
+
+.team-headings {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.team-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.center-div {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 20.5rem);
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1.5rem;
+    display: ;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.team-detail {
+    width: 20.5em;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-container .team-detail img {
+    width: 20.5rem;
+    height: 272px;
+    border-radius: 18px;
+    object-fit: cover;
+
+}
+
+.team-container h4,
+p {
+    width: 100%;
+}
+
+.team-names-dsc {
+    position: absolute;
+    bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+/* footer section */
+
+footer {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+    max-width: 1440px;
+    padding: 4.1rem 12% 5rem 12%;
+}
+
+.footer-headings {
+    width: 50%;
+}
+
+.f-title {
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+
+}
+
+.f-dsc {
+    width: 443px;
+    margin-top: 1.5rem;
+}
+
+.f-nav-container {
+    width: 50%;
+    gap: 150px;
+    margin-left: 40px;
+}
+
+.f-navs-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.f-navs li a {
+    font-size: 23px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.f-navs li {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 1154.6px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy {
+    padding: 35px 0;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    letter-spacing: 0.3px;
 }
