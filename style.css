@@ -65,6 +65,10 @@ section {
 
 /* navigation styling */
 
+.menu-icon {
+    display: none;
+}
+
 header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     padding: 2.7rem 11% 0 11%;
@@ -147,8 +151,10 @@ li {
     background-color: #0f0f0f;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
-    margin-left: 1rem;
+}
 
+.button {
+    margin-right: 1rem;
 }
 
 .hero-content-right {
@@ -407,7 +413,6 @@ option {
     gap: 1.5rem;
     align-items: center;
     padding: 1.5rem;
-    display: ;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
 }
@@ -490,8 +495,7 @@ footer {
 }
 
 hr {
-    margin: 0 auto;
-    width: 1154.6px;
+    margin: 0 12%;
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -506,4 +510,91 @@ hr {
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
     letter-spacing: 0.3px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .habit-cards,
+    .milka-singh-section,
+    .bmi-calc,
+    .footer-container,
+    .f-nav-container {
+        flex-direction: column;
+    }
+
+    section {
+        /* margin: 2rem 11%; */
+    }
+
+    .hero-content,
+    .milka-singh-section {
+        gap: 60px;
+    }
+
+    .hero-content-right {
+        margin-right: 0;
+    }
+
+    header {
+        padding: 50px 20px;
+    }
+
+    .hero-content-left {
+        margin-top: 50px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .center-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-icon {
+        display: block;
+        height: 24px;
+        width: 24px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 16px 20px;
+        margin-right: 20px;
+    }
+
+    .center-di {
+        margin-left: 17.5vw;
+        margin-right: auto;
+    }
+
+    .habit {
+        margin-top: 400px;
+    }
+
+    .bmi-headings {
+        margin: 0 11%;
+    }
+
+    .bmi-calc,
+    .bmi-chart {
+        margin: 30px auto;
+        gap: 2rem;
+    }
+
+    .team-container {
+        grid-template-columns: repeat(1, 20.5rem);
+    }
+
+    .f-nav-container {
+        margin: 30px 0 60px 0;
+        gap: 20px;
+    }
 }
