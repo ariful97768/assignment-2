@@ -524,10 +524,6 @@ hr {
         flex-direction: column;
     }
 
-    section {
-        /* margin: 2rem 11%; */
-    }
-
     .hero-content,
     .milka-singh-section {
         gap: 60px;
